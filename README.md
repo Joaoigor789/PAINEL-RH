@@ -1,5 +1,12 @@
-# 🧑‍💼 Painel RH – Minecraft (Equipe Staff)
+#  Painel RH – Minecraft (Equipe Staff)
 **Versão 1.0 – Aplicativo em C#**
+
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![WPF](https://img.shields.io/badge/WPF-0078D7?style=for-the-badge&logo=windows&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+
 
 O **Painel RH** é um aplicativo desenvolvido em **C# (WPF)** com o objetivo de gerenciar e controlar o acesso da **equipe Staff de servidores Minecraft**, oferecendo **segurança por liberação de IP**.
 

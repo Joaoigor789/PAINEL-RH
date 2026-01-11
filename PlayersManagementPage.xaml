@@ -1,0 +1,70 @@
+﻿<Page x:Class="RH_STAFF.PlayersManagementPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="clr-namespace:RH_STAFF"
+      Title="Gerenciamento de Players"
+      Background="White">
+
+    <Page.Resources>
+        <local:StatusColorConverter x:Key="StatusColorConverter"/>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" Background="#ECF0F1" Padding="15" Margin="0,0,0,10">
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="btnAddPlayer" Content="+ Novo Player" Background="#27AE60" Foreground="White" Padding="15,8" FontWeight="Bold" Margin="0,0,10,0"/>
+                <Button x:Name="btnEditPlayer" Content="✏️ Editar" Background="#3498DB" Foreground="White" Padding="15,8" Margin="0,0,10,0"/>
+                <Button x:Name="btnDeletePlayer" Content="🗑️ Excluir" Background="#E74C3C" Foreground="White" Padding="15,8" Margin="0,0,10,0"/>
+                <Button x:Name="btnExportData" Content="📤 Exportar CSV" Background="#9B59B6" Foreground="White" Padding="15,8" Margin="0,0,20,0"/>
+                <TextBox x:Name="txtSearch" Width="250" Padding="10,5" Text="Buscar player...">
+                    <TextBox.Style>
+                        <Style TargetType="TextBox">
+                            <Setter Property="Background" Value="White"/>
+                            <Setter Property="BorderBrush" Value="#BDC3C7"/>
+                            <Setter Property="BorderThickness" Value="1"/>
+                            <Setter Property="Foreground" Value="#2C3E50"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsKeyboardFocused" Value="True">
+                                    <Setter Property="Foreground" Value="Black"/>
+                                    <Setter Property="Text" Value=""/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBox.Style>
+                </TextBox>
+            </StackPanel>
+        </Border>
+
+        <DataGrid x:Name="dgPlayers" Grid.Row="1" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" SelectionMode="Single" SelectionUnit="FullRow" FontSize="12" RowHeight="35" Background="#F8F9FA" BorderBrush="#BDC3C7" BorderThickness="1">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="50" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Nickname" Binding="{Binding Nickname}" Width="150"/>
+                <DataGridTextColumn Header="Nome Real" Binding="{Binding RealName}" Width="150"/>
+                <DataGridTextColumn Header="Idade" Binding="{Binding Age}" Width="60"/>
+                <DataGridTextColumn Header="País" Binding="{Binding Country}" Width="100"/>
+                <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="100">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="Foreground" Value="{Binding Status, Converter={StaticResource StatusColorConverter}}"/>
+                            <Setter Property="FontWeight" Value="SemiBold"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Data Cadastro" Binding="{Binding RegistrationDate, StringFormat=dd/MM/yyyy}" Width="110"/>
+                <DataGridTextColumn Header="Último Acesso" Binding="{Binding LastAccess, StringFormat=dd/MM/yyyy HH:mm}" Width="130"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Border Grid.Row="2" Background="#2C3E50" Padding="10">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <TextBlock x:Name="txtStats" Foreground="White" FontSize="12" Text="Total de Players: 0 | Selecionados: 0 | Ativos: 0"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Page>

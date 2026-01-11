@@ -1,0 +1,35 @@
+﻿<Page x:Class="RH_STAFF.StaffManagementPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Gerenciamento de Staff"
+      Background="White">
+
+    <Grid>
+        <StackPanel Margin="20">
+            <TextBlock Text="Gerenciamento de Staff" 
+                       FontSize="24" 
+                       FontWeight="Bold"
+                       Margin="0,0,0,20"
+                       Foreground="#2C3E50"/>
+
+            <Border Background="#ECF0F1" 
+                    CornerRadius="8" 
+                    Padding="20"
+                    Height="200">
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Text="👨‍💼 Funcionalidade em Desenvolvimento" 
+                               FontSize="16" 
+                               HorizontalAlignment="Center"
+                               Foreground="#7F8C8D"
+                               Margin="0,0,0,10"/>
+                    <TextBlock Text="Em breve você poderá gerenciar membros da equipe aqui."
+                               FontSize="14"
+                               HorizontalAlignment="Center"
+                               Foreground="#95A5A6"
+                               TextWrapping="Wrap"
+                               TextAlignment="Center"/>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </Grid>
+</Page>

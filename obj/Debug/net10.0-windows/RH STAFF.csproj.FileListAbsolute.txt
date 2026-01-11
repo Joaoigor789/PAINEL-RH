@@ -1,0 +1,29 @@
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\DashboardPage.baml
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\DashboardPage.g.cs
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\App.g.cs
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\RH STAFF_MarkupCompile.cache
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\PlayerDialog.baml
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\PlayerDialog.g.cs
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\MainWindow.baml
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\MainWindow.g.cs
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\PlayersManagementPage.g.cs
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\RH STAFF_MarkupCompile.lref
+D:\realms_launcher\RH STAFF\bin\Debug\net10.0-windows\RH STAFF.exe
+D:\realms_launcher\RH STAFF\bin\Debug\net10.0-windows\RH STAFF.deps.json
+D:\realms_launcher\RH STAFF\bin\Debug\net10.0-windows\RH STAFF.runtimeconfig.json
+D:\realms_launcher\RH STAFF\bin\Debug\net10.0-windows\RH STAFF.dll
+D:\realms_launcher\RH STAFF\bin\Debug\net10.0-windows\RH STAFF.pdb
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\StaffManagementPage.baml
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\StaffManagementPage.g.cs
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\PlayersManagementPage.baml
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\RH STAFF.g.resources
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\RH STAFF.GeneratedMSBuildEditorConfig.editorconfig
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\RH STAFF.AssemblyInfoInputs.cache
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\RH STAFF.AssemblyInfo.cs
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\RH STAFF.csproj.CoreCompileInputs.cache
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\RH STAFF.dll
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\refint\RH STAFF.dll
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\RH STAFF.pdb
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\RH STAFF.genruntimeconfig.cache
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\ref\RH STAFF.dll

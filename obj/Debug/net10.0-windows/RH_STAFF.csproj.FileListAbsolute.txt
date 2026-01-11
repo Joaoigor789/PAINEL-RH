@@ -1,0 +1,8 @@
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\DashboardPage.baml
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\PlayerDialog.baml
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\DashboardPage.g.cs
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\PlayerDialog.g.cs
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\App.g.cs
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\RH_STAFF_MarkupCompile.cache
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\MainWindow.baml
+D:\realms_launcher\RH STAFF\obj\Debug\net10.0-windows\MainWindow.g.cs
